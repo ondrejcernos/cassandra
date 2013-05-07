@@ -1275,4 +1275,9 @@ public class DatabaseDescriptor
     {
         return conf.inter_dc_tcp_nodelay;
     }
+
+    public static String ec2likeAvailabilityZoneRegex()
+    {
+        return conf.ec2like_availability_zone_regex;
+    }
 }
